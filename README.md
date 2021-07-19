@@ -29,6 +29,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop Design](screenshot-desktop.jpg)
+
 ![Mobile Design](screenshot-mobile.jpg)
 
 
