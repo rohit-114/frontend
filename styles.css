@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}  
+
+body {
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: hsl(233, 47%, 7%);
+}
+
+h2 {
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.75;
+    font-kerning: none;
+    padding-inline-end: 50px;
+}
+
+#insight {
+    color: hsl(277, 64%, 61%);
+}
+
+.card {
+    display: inline-block;
+    background-color:hsl(244, 38%, 16%);
+    height: 25rem;
+    width: 61.5rem;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.card-content {
+    padding: 40px;
+    padding-inline: 60px;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.list {
+    padding: 0;
+}
+
+.list-item {
+    display: inline-block;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 0.75rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-kerning: none;
+    letter-spacing: 0.4px;
+    line-height: 1.7;
+    padding-right: 50px;
+    padding-top: 45px;
+}
+
+.list-span {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.image-div {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    border-radius: 0 7px 7px 0;
+    filter: contrast(57%) brightness(108%);
+}
+
+.image-div::after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: hsl(277, 64%, 61%);
+    mix-blend-mode: multiply;
+    filter: brightness(115%);
+}
+
+.attribution { 
+    font-size: 11.5px;
+    color: white;
+    position: fixed;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #00EAD3;
+}
+
+.attribution a:hover, a:active {
+    color: #FFF5B7;
+}
+
+@media (max-width: 375px) {
+    h2 {
+        font-size: 1.32rem;
+    }
+    
+    p {
+        padding-inline-end: 0;
+        font-size: 0.71rem;
+    }
+
+    .card {
+        display: block;
+        background-color:hsl(244, 38%, 16%);
+        height: 37.5rem;
+        width: 15.6rem;
+        text-align: center;
+        position: relative;
+        border-radius: 7px;
+        margin: 3% auto;
+    }
+
+    .card-content {
+        padding: 15px;
+        padding-inline: 25px;
+        height: 70%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .list {
+        margin-top: 8px;
+    }
+    
+    .list-item {
+        display: block;
+        font-size: 0.57rem;
+        letter-spacing: 0.8px;
+        line-height: 1.65;
+        padding-top: 16px;
+        padding-right: 0;
+    }
+    
+    .list-span {
+        font-size: 1.1rem;
+    }
+
+    .image-div {
+        width: 100%;
+        height: 30%;
+    }
+
+    .image {
+        content: url("images/image-header-mobile.jpg");
+        border-radius: 7px 7px 0 0
+    }
+    
+    .attribution { 
+        font-size: 0.65rem;
+        position: fixed;
+        bottom: 1%;
+    }
+}
