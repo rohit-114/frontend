@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [](https://rohit-114.github.io/stats-preview-card/)
+- Live Site URL: [Add live site URL here](https://rohit-114.github.io/stats-preview-card/)
 
 ## My process
 
