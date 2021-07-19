@@ -28,14 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Design](screenshot-desktop.jpg)
+![screenshot-desktop.jpg]
 
-![Mobile Design](screenshot-mobile.jpg)
+![screenshot-mobile.jpg]
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://rohit-114.github.io/stats-preview-card/)
+- Live Site URL: [https://rohit-114.github.io/stats-preview-card/]
 
 ## My process
 
